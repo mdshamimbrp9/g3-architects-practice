@@ -21,6 +21,8 @@ color: #131313;
 }
 .text {
 color: #727272;
+font-size: 16px;
+line-height: 26px;
 }
 .accent {
 color: #FF900E;
@@ -109,6 +111,36 @@ nav {
   border-radius: 8px;
 }
 
+/* team-section-design */
+#team .main-container{
+gap: 73px;
+align-items: center;
+}
+#team .team-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+#team .team-content {
+  max-width: 550px;
+}
+.team-content h2 {
+  font-size: 3rem;
+  margin-bottom: 24px;
+}
+.t-h-light {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.t-h-c-change {
+  color: #FF900E;
+}
+.team-content p {
+  margin-bottom: 32px;
+}
+
+
+
 /* All Responsive Section */
 @media screen and (max-width: 576px) {
 /* shared-desin */
@@ -125,14 +157,20 @@ main > section {
   padding-top: 50px;
 }
 
+.text { 
+font-size: 14px;
+line-height: 25px;
+}
+
 /* main-design */
 
 nav { 
   flex-direction: column;
   padding-top: 10px;
+  gap: 10px;
 }
 .logo h3 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .menu ul {
   gap: 20px;
@@ -168,8 +206,33 @@ nav {
   border-radius: 8px;
 }
 
-
-
+/* team-section-design */
+#team .main-container{
+gap: 50px; 
+flex-direction: column;
+margin: 12px;
+}
+#team .team-image {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+#team .team-content {
+  max-width: 100%;
+}
+.team-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.t-h-light {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.team-content p {
+  margin-bottom: 20px;
+}
+#team .team-image img {
+  width: 100%;
+}
 
 }
 
@@ -183,5 +246,18 @@ nav {
   flex-direction: column;
 }
 
+
+/* team-section */
+#team .main-container{
+gap: 50px; 
+flex-direction: column;
+margin: 12px;
+}
+#team .team-image {
+  grid-template-columns: repeat(2, 1fr);
+}
+#team .team-image img {
+  width: 100%;
+}
 
 }
