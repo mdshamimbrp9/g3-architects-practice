@@ -256,10 +256,27 @@ justify-content: space-between;
   justify-content: space-between;
   gap: 155px;
 }
+.sponspors-icon img {
+  width: 165px;
+  height: 50px;
+}
 
 
-
-
+/* footer-section-design */
+footer {
+padding-top: 100px;
+padding-bottom: 150px;
+}
+footer .main-container {
+text-align: center;
+background-color: rgba(255, 144, 14, 0.1);
+border-radius: 8px;
+padding: 40px;
+}
+footer .main-container p {
+font-size: 1.2rem;
+color: #424242;
+}
 
 /* All Responsive Section */
 @media screen and (max-width: 576px) {
@@ -450,6 +467,23 @@ padding: 12px;
   height: 100%;
 }
 
+
+footer {
+padding: 15px;
+padding-top: 50px;
+padding-bottom: 80px;
+
+}
+footer .main-container {
+text-align: center;
+background-color: rgba(255, 144, 14, 0.1);
+border-radius: 8px;
+padding: 25px;
+}
+footer .main-container p {
+font-size: 0.7rem;
+color: #424242;
+}
 
 }
 
