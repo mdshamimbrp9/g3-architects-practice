@@ -252,8 +252,8 @@ justify-content: space-between;
  }
 .sponspors-icon {
   margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(5,1fr);
+  display: flex;
+  justify-content: space-between;
   gap: 155px;
 }
 
@@ -435,18 +435,21 @@ padding: 12px;
  .sponspors-content {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 22px;
  }
 .sponspors-icon {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 35px;  
-  
+  margin-top: 20px;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .sponspors-icon img {
-  max-width: 100%;
+  width: 30%;
+  height: 100%;
 }
+
 
 }
 
