@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-font {
+  font-family: "work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Shared Style  */
+.pramary {
+color: #131313;
+}
+.secoundary {
+  color: #424242;
+}
+.text {
+color: #727272;
+}
+.accent {
+color: #FF900E;
+}
+.bg-accent {
+  background-color: #FF900E;
+}
+.bg-light {
+  background: rgba(255, 144, 14, 0.1);
+}
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: #FF900E;
+  padding: 18px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+main > section {
+  padding-top: 100px;
+}
+
+
+
+
+
+
+/* Header-Design-Section */
+
+
+
+
+
+
+
+
+
+
+/* All Responsive Section */
+@media screen and (max-width: 576px) {
+  
+}
