@@ -430,6 +430,7 @@ padding: 12px;
 
 #sponspors  {
   text-align: center;
+  padding: 15px;
 }
  .sponspors-content {
   display: flex;
@@ -439,9 +440,12 @@ padding: 12px;
 .sponspors-icon {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 15px;
+  grid-template-columns: repeat(3,1fr);
+  gap: 35px;  
   
+}
+.sponspors-icon img {
+  max-width: 100%;
 }
 
 }
