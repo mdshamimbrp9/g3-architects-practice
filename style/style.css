@@ -81,6 +81,11 @@ nav {
   font-weight:500;
 }
 
+.heading {
+  font-size: 3rem;
+  color: #131313;
+}
+
 
 /* banner-section-design */
 #banner {
@@ -125,7 +130,6 @@ align-items: center;
   max-width: 550px;
 }
 .team-content h2 {
-  font-size: 3rem;
   margin-bottom: 24px;
 }
 .t-h-light {
@@ -160,7 +164,6 @@ justify-content: space-between;
   border: none;
 }
 .feature-header-container h2 {
-  font-size: 3rem;
   color: #131313;
 }
 .feature-box .card {
@@ -199,7 +202,6 @@ justify-content: space-between;
 /* Facts section design  */
 
 .fact-content h2 {
-  font-size: 3rem;
   margin-bottom: 24px;
 }
 .fact-content p {
@@ -237,6 +239,28 @@ justify-content: space-between;
 }
 
 
+/* sponspors section design  */
+
+
+#sponspors  {
+  text-align: center;
+}
+ .sponspors-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+ }
+.sponspors-icon {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 155px;
+}
+
+
+
+
+
 /* All Responsive Section */
 @media screen and (max-width: 576px) {
 /* shared-desin */
@@ -257,7 +281,9 @@ main > section {
 font-size: 14px;
 line-height: 25px;
 }
-
+.heading {
+  font-size: 2rem; ;
+}
 /* main-design */
 
 nav { 
@@ -402,7 +428,21 @@ padding: 12px;
   font-size: 1rem;
 }
 
-
+#sponspors  {
+  text-align: center;
+}
+ .sponspors-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+ }
+.sponspors-icon {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+  
+}
 
 }
 
