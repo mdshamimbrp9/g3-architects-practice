@@ -139,7 +139,62 @@ align-items: center;
   margin-bottom: 32px;
 }
 
-
+/* Feature-section-design */
+#feature .main-container{
+gap: 55px;
+justify-content: space-between;
+}
+.feature-header-container {
+ gap: 20px;
+}
+.feature-content, .feature-box {
+  width: 586px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feature-header-container hr {
+  width: 5px;
+  height: 105px;
+  background-color: #FF900E;
+  border: none;
+}
+.feature-header-container h2 {
+  font-size: 3rem;
+  color: #131313;
+}
+.feature-box .card {
+  padding: 30px;
+  box-shadow: 0 5px 50px #00000020;
+  border-radius: 8px;
+}
+.feature-box .card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.feature-image img {
+  max-width: 708px;
+}
+.feature-image .img-box {
+  background-color: #FF900E;
+  padding: 45px;
+  position: relative;
+  top: -120px;
+  left: -92px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+}
+.feature-image .img-box h3 {
+  font-size: 4rem;
+  color: #fff;
+}
+.feature-image .img-box p {
+  font-size: 25px;
+  line-height: 40px;
+  color: #fff;
+}
 
 /* All Responsive Section */
 @media screen and (max-width: 576px) {
@@ -234,6 +289,44 @@ margin: 12px;
   width: 100%;
 }
 
+/* Feature-section-design */
+#feature .main-container{
+gap: 25px; 
+flex-direction: column-reverse;
+padding: 12px;
+}
+.feature-header-container {
+ gap: 10px;
+}
+.feature-content, .feature-box {
+  width: 100%;
+  gap: 14px;
+}
+.feature-header-container h2 {
+  font-size: 3rem;
+  color: #131313;
+}
+.feature-box .card {
+  padding: 25px;
+}
+.feature-image img {
+  max-width: 100%;
+}
+.feature-image .img-box { 
+  padding: 25px;
+  position: relative; 
+  left: -30px;
+  top: -65px;
+  width: 200px;
+}
+.feature-image .img-box h3 {
+  font-size: 2.2rem;
+}
+.feature-image .img-box p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 }
 
 
@@ -251,6 +344,7 @@ nav {
 #team .main-container{
 gap: 50px; 
 flex-direction: column;
+align-items: start;
 margin: 12px;
 }
 #team .team-image {
@@ -258,6 +352,48 @@ margin: 12px;
 }
 #team .team-image img {
   width: 100%;
+}
+
+/* Feature-section-design */
+#feature .main-container{
+gap: 25px; 
+flex-direction: column-reverse;
+padding: 12px;
+}
+.feature-header-container {
+ gap: 10px;
+}
+.feature-content, .feature-box {
+  width: 100%;
+  gap: 14px;
+}
+.feature-header-container hr {
+  width: 5px;
+  height: 105px; 
+}
+.feature-header-container h2 {
+  font-size: 3rem;
+  color: #131313;
+}
+.feature-box .card {
+  padding: 25px;
+}
+.feature-image img {
+  max-width: 100%;
+}
+.feature-image .img-box { 
+  padding: 25px;
+  position: relative; 
+  left: -30px;
+  top: -65px;
+  width: 200px;
+}
+.feature-image .img-box h3 {
+  font-size: 2.2rem;
+}
+.feature-image .img-box p {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 }
